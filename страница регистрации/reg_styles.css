@@ -1,0 +1,86 @@
+body {
+  text-align: center;
+}
+#elem {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  background-color: #455CA2;
+  text-align: center;
+  line-height: 50px;
+  font-size: 40px;
+  color: white;
+  border-bottom: 1px solid #455CA2;
+}
+.astro{
+  display: block;
+  margin-top: 10px;
+  font: normal 45px "Arial";
+}
+body{
+  background-image: url(img/фон1большой.jpg);
+  background-repeat: no-repeat;
+}
+
+.big {
+  width: 250px;
+  height:250px;
+}
+.windows {
+  display: block;
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: column;
+  text-align: center;
+  height: 350px;
+  width: 250px;
+  padding: 10px;
+  border-radius: 25px;
+  background-color: #ffffff;
+  text-decoration: none;
+  color: #000000;
+  border: 1px solid #000000;
+}
+
+.picture{
+  display: block;
+  float: right;
+  margin-top: 110px;
+  margin-right: 410px;
+
+}
+.regtext{
+  display: block;
+  margin-top: 30px;
+  font: normal 26px "Arial";
+  margin-bottom: 50px;
+}
+
+input{
+  display: block;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 30px;
+  width: 180px;
+}
+
+button{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  height: 30px;
+  width: 95px;
+  background-color: #455CA2;
+  border-radius: 25px
+}
+.buttomtext{
+  margin-top: 1.5px;
+  text-align: center;
+  font: normal 16px "Arial";
+  color: #ffffff;
+}
