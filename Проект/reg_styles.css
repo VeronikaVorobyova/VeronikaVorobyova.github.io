@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  text-align: center;
+}
+.wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  display: block;
+  margin-top: -10px;
+  width: 100%;
+  height: 70px;
+  background-color: #455CA2;
+  text-align: center;
+  line-height: 50px;
+  font-size: 40px;
+  color: white;
+  border-bottom: 1px solid #455CA2;
+}
+.astro{
+  display: block;
+  font: normal 55px "Arial";
+}
+
+.content{
+  background-image: url(img/фон1большой.jpg);
+  background-repeat: no-repeat;
+  display: flex;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.windows {
+  position:relative;
+  display: block;
+  margin: 140px auto;
+  flex-direction: column;
+  text-align: center;
+  height: 345px;
+  width: 250px;
+  padding: 10px;
+  border-radius: 25px;
+  background-color: #ffffff;
+  text-decoration: none;
+  color: #000000;
+  border: 1px solid #000000;
+}
+
+.picture{
+  display: block;
+  position: absolute;
+  margin-top: 110px;
+
+  margin-left: 170px;
+}
+
+.regtext{
+  display: block;
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 35px;
+  font: normal 26px "Arial";
+
+}
+
+.email{
+  position: absolute;
+  display: block;
+  margin-top: 90px;
+  margin-left: 25px;
+  height: 30px;
+  width: 180px;
+}
+.password{
+  position: absolute;
+  display: block;
+  margin-left: 25px;
+  margin-top: 150px;
+
+  height: 30px;
+  width: 180px;
+
+}
+
+button{
+  position: absolute;
+  display: block;
+  margin-left: 65px;
+  margin-top: 250px;
+  height: 30px;
+  width: 95px;
+  background-color: #455CA2;
+  border-radius: 25px
+}
+.buttomtext{
+  margin-top: 1.5px;
+  text-align: center;
+  font: normal 16px "Arial";
+  color: #ffffff;
+}
+
+.footer{
+  margin-top: -20px;
+
+  display: block;
+  width: 100%;
+  height: 50px;
+  background-color: #455CA2;
+  color: white;
+  font: normal 16px "Arial";
+  padding-top: 15px;
+}
